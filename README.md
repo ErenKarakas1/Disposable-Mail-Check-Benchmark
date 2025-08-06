@@ -1,9 +1,9 @@
-This script measures accuracy and response times of multiple email verification APIs.
+This script measures accuracy and response times of multiple disposable mail verification APIs.
 
 ### Usage
 
 ```bash
-python benchmark_email_providers.py \
+python benchmark_providers.py \
     --missed missed.txt \
     [--detected detected.txt] \
     --normal normal.txt
