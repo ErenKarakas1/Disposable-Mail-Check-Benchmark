@@ -66,7 +66,7 @@ PROVIDERS: List[Provider] = [
             "x-rapidapi-key": os.getenv("MAILCHECK_API_KEY"),
         },
         "params": {
-            "domain": "mailinator.com"
+            "domain": None,
         },
         "map_func": lambda resp: resp.get("disposable", False) # type: ignore
     },
